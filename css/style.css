@@ -32,8 +32,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-bg{
-    background: #EBF2F9;
+.about-bg {
+  background: #ebf2f9;
+}
+.font {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2rem;
 }
 .footer-bg {
   background: #f8f9fa;
