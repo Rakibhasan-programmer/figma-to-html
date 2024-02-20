@@ -32,6 +32,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about-bg{
+    background: #EBF2F9;
+}
 .footer-bg {
   background: #f8f9fa;
 }
