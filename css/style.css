@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.active {
+  color: #235cf8 !important;
+}
+.primary-btn {
+  background-color: #235cf8;
+  color: white;
+  border-radius: 8px;
+}
+.primary-btn:hover {
+  border: 1px solid #235cf8;
+  color: black;
+}
+.secondary-btn {
+  border: 1px solid #235cf8;
+  color: #235cf8;
+}
+/* .secondary-btn:hover{
+    background-color: rgb(40, 209, 130);
+    color: white;
+} */
