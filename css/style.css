@@ -12,6 +12,7 @@
   background-color: #235cf8;
   color: white;
   border-radius: 8px;
+  padding: 12px 24px 12px 24px;
 }
 .primary-btn:hover {
   border: 1px solid #235cf8;
@@ -21,11 +22,16 @@
   border: 1px solid #235cf8;
   color: #235cf8;
 }
-/* .secondary-btn:hover{
-    background-color: rgb(40, 209, 130);
-    color: white;
-} */
-.footer-bg{
-    background: #F8F9FA;
+.text-header {
+  color: #466bdd;
+  font-size: 2.9rem;
 }
-
+.banner {
+  height: auto;
+  background-image: url("../assets/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-bg {
+  background: #f8f9fa;
+}
