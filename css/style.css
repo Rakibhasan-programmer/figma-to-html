@@ -41,6 +41,9 @@
 .about-bg {
   background: #ebf2f9;
 }
+.bg-grey{
+    background-color: #f9f9f9;
+}
 .font {
   font-weight: 400;
   font-size: 0.9rem;
