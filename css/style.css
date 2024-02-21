@@ -22,6 +22,12 @@
   border: 1px solid #235cf8;
   color: #235cf8;
 }
+.btn-save {
+  background: #93b6f6;
+  padding: 6px 10px;
+  border: 0;
+  color: white;
+}
 .text-header {
   color: #466bdd;
   font-size: 2.9rem;
