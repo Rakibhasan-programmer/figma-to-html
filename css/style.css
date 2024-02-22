@@ -244,14 +244,27 @@
   top: 7%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: blue;
-  color: blue !important;
-  border-radius: 50%;
-  padding: 10px;
-}
-
 .promo-style {
   color: #be1414;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #410dcf;
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 0;
+  top: 92%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-control-next {
+  left: 51%;
+}
+.carousel-control-prev {
+  left: 47%;
 }
