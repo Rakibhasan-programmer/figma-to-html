@@ -63,3 +63,8 @@
 .footer-bg {
   background: #f8f9fa;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: blue;
+}
