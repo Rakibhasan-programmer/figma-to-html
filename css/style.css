@@ -38,11 +38,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.testimonial-bg {
+  height: auto;
+  background-image: url("../assets/testimonial-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-testimonial {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+  color: #202020cc;
+}
 .about-bg {
   background: #ebf2f9;
 }
-.bg-grey{
-    background-color: #f9f9f9;
+.bg-grey {
+  background-color: #f9f9f9;
 }
 .font {
   font-weight: 400;
