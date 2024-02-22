@@ -75,10 +75,6 @@
   font-size: 2rem;
   line-height: 2rem;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: blue;
-}
 
 .card-img {
   position: relative;
@@ -90,4 +86,97 @@
   position: absolute;
   top: 66%;
   right: 0;
+}
+
+.half-circle {
+  position: relative;
+}
+.half-circle-img {
+  position: absolute;
+  left: 0;
+  top: 58%;
+}
+.rectangle {
+  position: absolute;
+  left: 7%;
+  bottom: 6%;
+}
+.circle {
+  position: absolute;
+  left: 7%;
+  bottom: 2%;
+}
+
+/* books section  */
+.rect {
+  position: absolute;
+  top: 17%;
+  right: 12%;
+}
+.circ {
+  position: absolute;
+  bottom: 17%;
+  right: 8%;
+}
+.circ-half {
+  position: absolute;
+  bottom: 38%;
+  right: 0;
+}
+
+/* standard */
+.full-circle {
+  position: absolute;
+  left: 0;
+  top: 3%;
+}
+.rect-1 {
+  position: absolute;
+  left: 12%;
+  top: 40%;
+}
+.rect-2 {
+  position: absolute;
+  right: 14%;
+  top: 27%;
+}
+.circ-1 {
+  position: absolute;
+  left: 12%;
+  bottom: 10%;
+}
+.circ-2 {
+  position: absolute;
+  right: 14%;
+  bottom: 20%;
+}
+
+/* free */
+.half-circle1 {
+  position: absolute;
+  left: 0;
+  top: 14%;
+}
+.half-circle2 {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.rect-3 {
+  position: absolute;
+  left: 12%;
+  bottom: 25%;
+}
+.rect-4 {
+  position: absolute;
+  right: 6%;
+  top: 7%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: blue;
+  color: blue !important;
+  border-radius: 50%;
+  padding: 10px;
 }
