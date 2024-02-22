@@ -79,3 +79,15 @@
 .carousel-control-next-icon {
   background-color: blue;
 }
+
+.card-img {
+  position: relative;
+}
+.card-height {
+  height: 20rem;
+}
+.card-img img {
+  position: absolute;
+  top: 66%;
+  right: 0;
+}
