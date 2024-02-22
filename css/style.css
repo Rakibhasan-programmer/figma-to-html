@@ -64,6 +64,17 @@
   background: #f8f9fa;
 }
 
+.font-sm {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+.number {
+  color: #235cf8b2;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: blue;
