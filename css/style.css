@@ -21,6 +21,8 @@
 .secondary-btn {
   border: 1px solid #235cf8;
   color: #235cf8;
+  border-radius: 8px;
+  padding: 12px 24px 12px 24px;
 }
 .btn-save {
   background: #93b6f6;
@@ -91,6 +93,11 @@
 .half-circle {
   position: relative;
 }
+.add {
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
 .half-circle-img {
   position: absolute;
   left: 0;
@@ -101,10 +108,32 @@
   left: 7%;
   bottom: 6%;
 }
+.rectangle1 {
+  position: absolute;
+  right: 23%;
+  top: 20%;
+}
 .circle {
   position: absolute;
   left: 7%;
   bottom: 2%;
+}
+.circle1 {
+  position: absolute;
+  right: 12%;
+  bottom: 16%;
+}
+.sc {
+  position: absolute;
+  left: 19%;
+  bottom: 14%;
+}
+
+.what {
+  position: absolute;
+  right: 5%;
+  top: 42%;
+  z-index: -999;
 }
 
 /* books section  */
@@ -149,6 +178,11 @@
   position: absolute;
   right: 14%;
   bottom: 20%;
+}
+.sc1 {
+  position: absolute;
+  right: 0;
+  top: 40%;
 }
 
 /* free */
