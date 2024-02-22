@@ -30,10 +30,6 @@
   border: 0;
   color: white;
 }
-.text-header {
-  color: #466bdd;
-  font-size: 2.9rem;
-}
 .banner {
   height: auto;
   background-image: url("../assets/background-img.png");
@@ -43,6 +39,12 @@
 .testimonial-bg {
   height: auto;
   background-image: url("../assets/testimonial-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo-bg {
+  height: auto;
+  background-image: url("../assets/promo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,7 +98,20 @@
 .add {
   position: absolute;
   left: 3%;
-  top: 10%;
+  top: 13%;
+}
+
+.add img {
+  background: linear-gradient(37deg, #a0caffc7, #dbecff);
+  z-index: 0;
+  position: relative;
+}
+
+.text-header {
+  color: #466bdd;
+  font-size: 2.9rem;
+  z-index: 100;
+  position: sticky;
 }
 .half-circle-img {
   position: absolute;
@@ -127,6 +142,28 @@
   position: absolute;
   left: 19%;
   bottom: 14%;
+}
+
+/* promo  */
+.line {
+  position: absolute;
+  bottom: 22%;
+  right: 24%;
+}
+.rect-promo {
+  position: absolute;
+  bottom: 22%;
+  right: 35%;
+}
+.circle-promo {
+  position: absolute;
+  bottom: 10%;
+  right: 22%;
+}
+.sc-promo {
+  position: absolute;
+  top: 10%;
+  right: 5%;
 }
 
 .what {
@@ -213,4 +250,8 @@
   color: blue !important;
   border-radius: 50%;
   padding: 10px;
+}
+
+.promo-style {
+  color: #be1414;
 }
