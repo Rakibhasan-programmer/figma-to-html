@@ -248,9 +248,16 @@
   color: #be1414;
 }
 
+.carousel-prev1,
+.carousel-next1 {
+  background-color: whitesmoke;
+  color: #235cf8;
+  background-image: none !important;
+  border-radius: 50%;
+}
+
 .carousel-prev,
 .carousel-next {
-  background-color: #410dcf;
   width: 3em;
   height: 3em;
   position: absolute;
@@ -263,14 +270,15 @@
 }
 
 .carousel-next {
-  left: 51%;
+  left: 50%;
 }
 .carousel-prev {
   left: 47%;
 }
-
-.carousel-prev1,
-.carousel-next1 {
-  background-color: #410dcf;
+.carousel-prev2,
+.carousel-next2 {
+  background-color: whitesmoke;
+  color: #235cf8;
+  background-image: none !important;
   border-radius: 50%;
 }
