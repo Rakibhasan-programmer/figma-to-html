@@ -248,8 +248,8 @@
   color: #be1414;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-prev,
+.carousel-next {
   background-color: #410dcf;
   width: 3em;
   height: 3em;
@@ -262,9 +262,15 @@
   cursor: pointer;
 }
 
-.carousel-control-next {
+.carousel-next {
   left: 51%;
 }
-.carousel-control-prev {
+.carousel-prev {
   left: 47%;
+}
+
+.carousel-prev1,
+.carousel-next1 {
+  background-color: #410dcf;
+  border-radius: 50%;
 }
